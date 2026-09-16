@@ -2,6 +2,11 @@
 
 Streamlit betting tool for **Kelly criterion**, **autohedging (TKO)**, **arbitrage**, and **hedging existing positions** — based on value-bet vs arb vs autohedge bankroll growth analysis.
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://bankroll-growth-lab.streamlit.app)
+
+**Live app:** [https://bankroll-growth-lab.streamlit.app](https://bankroll-growth-lab.streamlit.app)  
+**Repo:** [github.com/jriordan55/bankroll-growth-lab](https://github.com/jriordan55/bankroll-growth-lab)
+
 ## Run locally
 
 ```bash
@@ -11,12 +16,13 @@ streamlit run app.py
 
 Open http://localhost:8501
 
-## Deploy a public URL (Streamlit Cloud)
+## Deploy on Streamlit Cloud
 
-1. Push this folder to a GitHub repository.
-2. Go to [share.streamlit.io](https://share.streamlit.io) and sign in with GitHub.
-3. **New app** → select your repo → main file: `app.py`.
-4. Deploy. You get a URL like `https://your-app-name.streamlit.app`.
+**[One-click deploy →](https://share.streamlit.io/deploy?repository=jriordan55/bankroll-growth-lab&branch=main&mainModule=app.py&subdomain=bankroll-growth-lab)**
+
+1. Open the link above and sign in with GitHub (**jriordan55**).
+2. Confirm repo `jriordan55/bankroll-growth-lab`, branch `main`, file `app.py`.
+3. Click **Deploy** → live at `https://bankroll-growth-lab.streamlit.app`.
 
 ## Tools included
 
